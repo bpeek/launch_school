@@ -1,9 +1,6 @@
-name = gets.chomp
-
-def greeting(name)
-  greeting = "Hello #{name} it sure is nice to meet you!"
-  puts greeting
-  return greeting
+def greet(person)
+  puts "Hello, "+person
 end
 
-greeting(name)
+greet("John")
+greet(1)
